@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_info">My Info</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="add_staff">Add Staff</string>
+
+    <string-array name="specialty">
+        <item>Speciality/Branch...</item>
+        <item>Cardiology</item>
+‎        <item>Diabetology‎</item>
+        <item>Emergency</item>
+        <item>General</item>
+        <item>Neurosurgery</item>
+        <item>Orthopedic surgery</item>
+        <item>Ophthalmology</item>
+        <item>Pediatrics</item>
+        <item>Radiology</item>
+        <item>Urology</item>
+    </string-array>
+
+</resources>

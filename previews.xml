@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="com.ecruit.hospital.Register"
+        config="layout-ldltr-sw480dp-w480dp-h800dp-large-long-port-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-800x480-v19"
+        device="5.1in WVGA"
+        devicestate="Portrait"
+        target="Android 4.4"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>

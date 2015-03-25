@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Search / will display always -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_search"/>
+    
+      <!-- Add Patients -->
+    <item
+        android:id="@+id/add_patients"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/add_patient"/>
+    
+     <!-- Add Staff -->
+    <item
+        android:id="@+id/add_staff"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/add_staff"/>
+    
+
+    <!-- Refresh -->
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_refresh"/>
+
+    <!-- Doctor information -->
+    <item
+        android:id="@+id/action_myinfo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_info"/>
+
+</menu>

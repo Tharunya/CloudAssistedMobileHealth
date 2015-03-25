@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecruit.camh"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ecruit.camh.Start"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.Register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName="com.ecruit.camh.AdminPanel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.AdminPanel" />
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.Doctor"
+            android:label="@string/title_activity_doctor"
+            android:parentActivityName="com.ecruit.camh.Start" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Start" />
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.AdminPanel"
+            android:label="@string/title_activity_admin_panel"
+            android:parentActivityName="com.ecruit.camh.Start" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Start" />
+        </activity>
+         <activity
+            android:name="com.ecruit.camh.PatientPanel"
+            android:label="@string/title_activity_patient_info"
+            android:parentActivityName="com.ecruit.camh.Doctor" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Doctor" />
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.Cashier"
+            android:label="@string/title_activity_cashier"
+            android:parentActivityName="com.ecruit.camh.Start" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Start" />
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.LabTest"
+            android:label="@string/title_activity_lab_test"
+            android:parentActivityName="com.ecruit.camh.Start" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Start" />
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.ProfileDoctor"
+            android:label="@string/title_activity_profile_doctor"
+            android:parentActivityName="com.ecruit.camh.Doctor" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Doctor" />
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.PatientInfo"
+            android:label="@string/title_activity_patient_info"
+            android:parentActivityName="com.ecruit.camh.Doctor" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Doctor" />
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.NewPatient"
+            android:label="@string/title_activity_new_patient"
+            android:parentActivityName="com.ecruit.camh.Cashier" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Cashier" />
+        </activity>
+         <activity
+            android:name="com.ecruit.camh.NewStaff"
+            android:label="@string/title_activity_new_patient"
+            android:parentActivityName="com.ecruit.camh.Cashier" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ecruit.camh.Cashier" />
+        </activity>
+        <activity
+            android:name="com.ecruit.camh.FragmentPatient"
+            android:label="@string/title_pat_details" >
+        </activity>
+         <activity
+            android:name="com.ecruit.camh.FragmentPatientPrescription"
+            android:label="@string/title_pat_prescription" >
+        </activity>
+         <activity
+            android:name="com.ecruit.camh.FragmentPatientTest"
+            android:label="@string/title_pat_test" >
+        </activity>
+    </application>
+
+</manifest>
